@@ -1,0 +1,25 @@
+{
+  "verbose": true,
+  "debug": false,
+  "exec": "tsc && node ./dist/index.js",
+  "ignore": [
+    "mochawesome-report",
+    "node_modules",
+    "dist",
+    "./test",
+    "**/*.d.ts",
+    "*.test.ts",
+    "*.spec.ts",
+    "fixtures/*",
+    "test/**/*",
+    "docs/*"
+  ],
+  "events": {
+    "restart": "echo [Warning] Remember run npm run test b4 push to dev branch !"
+  },
+  "watch": [
+    "./src"
+  ],
+  "ext": "ts",
+  "inspect": true
+}

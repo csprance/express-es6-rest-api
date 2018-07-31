@@ -1,3 +1,3 @@
 // our example model is just an Array
-const facets = [];
+const facets: any[] = [{id: 'test'}];
 export default facets;

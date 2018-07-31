@@ -1,7 +1,7 @@
-FROM alpine:3.4
+FROM node:10-alpine
 
 # File Author / Maintainer
-LABEL authors="Zouhir Chahoud <zouhir@zouhir.org>"
+LABEL authors="Chris Sprance <chrissprance@gmail.com>"
 
 # Update & install required packages
 RUN apk add --update nodejs bash git

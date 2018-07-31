@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": false,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "module": "commonjs",
+    "target": "esnext",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": ["ES2015", "es7", "ES2017"],
+    "typeRoots": ["./src/typings/", "./node_modules/@types"]
+  },
+  "include": ["./src/"],
+  "exclude": ["./node_modules/", "./dist/"]
+}
